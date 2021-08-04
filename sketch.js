@@ -1,13 +1,24 @@
 
+function preload(){
 
-var a = prompt('Enter the first variable: ');
+}
+var seaImg;
 
 function setup(){
-  var b2 = createButton("click here to Swap");
+  createCanvas(400,400);
+  
+}
 
-  }
 
+seaImg = loadImg (sea.png);
+shipImg = loadanimation
 
-function draw()
-{
+spritename.addImage(sealing);
+if(sea.X < 0);{
+  sea.X = sea.width/2;
+}
+
+function draw() {
+  background("blue");
+ 
 }
